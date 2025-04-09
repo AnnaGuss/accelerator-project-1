@@ -9,13 +9,72 @@
   </head>
 
   <body class="page-body">
+
+    <main class="main-container">
+      <h1 class="visually-hidden">Фитнес-центр SUPERGYM</h1>
+
+      <section class="hero">
+        <header class="header">
+          <img src="/__spritemap#sprite-logo-view" alt="Фитнес-центр SUPERGYM">
+          <a class="header__contact" href="tel:+78005555555">8 800 555-55-55</a>
+        </header>
+        <div class="hero__wrapper">
+          <div class="hero__text-wrapper">
+            <span class="hero__text">Омск</span>
+            <ul class="hero__list">
+              <li class="hero__item hero__description">Тренажёрный зал Групповые занятия Кардио-зона</li>
+              <li class="hero__item hero__title">Фитнес центр</li>
+            </ul>
+            <a class="button" href="#">Купить абонемент</a>
+          </div>
+          <picture>
+            <source type="image/png" media="(min-width: 1440px)" srcset="images/slider-lavender-desktop@1x.png 1x, images/slider-lavender-desktop@2x.png 2x" width="600" height="600">
+            <source type="image/png" media="(min-width: 768px)" srcset="images/slider-lavender-tablet@1x.png 1x, images/slider-lavender-tablet@2x.png 2x" width="476" height="476">
+            <img src="images/slider-lavender-mobile@1x.png" srcset="images/slider-lavender-mobile@2x.png 2x" width="280" height="280" alt="Фото тренера">
+          </picture>
+        </div>
+      </section>
+
+      <section class="about">
+        <h2 class="about__title">Тренажёрный зал</h2>
+        <span class="about__description">Просторный зал площадью 900 кв/м</span>
+        <p>Supergym&nbsp;&mdash; самый большой фитнес центр за&nbsp;Уралом и&nbsp;идеальное место для укрепления тела и&nbsp;здоровья. Тренажёрный зал оснащён всем необходимым современным оборудованием для всех спортсменов.</p>
+        <picture>
+          <source type="image/png" media="(min-width: 1440px)" srcset="images/slider-lavender-desktop@1x.png 1x, images/slider-lavender-desktop@2x.png 2x" width="600" height="600">
+          <source type="image/png" media="(min-width: 768px)" srcset="images/slider-lavender-tablet@1x.png 1x, images/slider-lavender-tablet@2x.png 2x" width="476" height="476">
+          <img src="images/slider-lavender-mobile@1x.png" srcset="images/slider-lavender-mobile@2x.png 2x" width="280" height="280" alt="Фото тренажерного зала">
+        </picture>
+        <!-- попавить классы gpt -->
+        <div class="video-container">
+          <img class="video-thumbnail" src="cover.jpg" alt="Обложка видео">
+          <div class="play-button"></div>
+          <iframe id="video" class="video-iframe" src="https://www.youtube.com/embed/Vbg81kc56FU" allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <section class="price">
+
+      </section>
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
     <!-- пример использования спрайта -->
-    <img src="/__spritemap#sprite-logo-view" alt="Это спрайт">
+    <!-- <img src="/__spritemap#sprite-logo-view" alt="Это спрайт">
     <svg>
       <use href="/__spritemap#sprite-user"></use>
-    </svg>
+    </svg> -->
     <!-- примеры требуемых атрибутов data-test="*" -->
-    <div data-test="hero">hero</div>
+    <!-- <div data-test="hero">hero</div>
     <div data-test="about">about</div>
     <div data-test="price">price</div>
     <div data-test="games">games</div>
@@ -25,7 +84,7 @@
     <div data-test="faq">faq</div>
     <div data-test="reviews">reviews</div>
     <div data-test="form">form</div>
-    <div data-test="footer">footer</div>
+    <div data-test="footer">footer</div> -->
     <script type="module" src="js/main.js"></script>
   </body>
 
